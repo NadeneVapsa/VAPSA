@@ -1,0 +1,815 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAPSA - Veteran Advocacy Professional Standards Association</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> </head> <body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="vapsa-logo.png" alt="VAPSA Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Find an Advocate</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="member-login">
+                <a href="#" class="btn btn-secondary">Member Login</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>A fair, consistent, and compassionate compensation system</h1>
+                <p>Supporting veterans through professional advocacy, training, and systemic reform</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Find an Advocate</a>
+                    <a href="#" class="btn btn-outline">Learn About Your Rights</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Leading the way in veteran advocacy</h2>
+            <p>The Veteran Advocacy Professional Standards Association (VAPSA) leads systemic reform, national advocacy and the professional representation of veterans seeking compensation. We support veterans and their families by setting the highest standards in training, accreditation and advocacy.</p>
+        </div>
+    </section>
+
+    <section class="priorities">
+        <div class="container">
+            <h2>Our Strategic Priorities</h2>
+            <div class="priority-cards">
+                <div class="card">
+                    <div class="card-icon navy">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Veteran-Centred Representation</h3>
+                    <p>Expert, trauma-informed representation for veterans in compensation claims, reviews, and appeals.</p>
+                    <a href="#" class="card-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon sky">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Accreditation, Training & Standards</h3>
+                    <p>Building a nationally consistent framework for training, accreditation, and professional development.</p>
+                    <a href="#" class="card-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon forest">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Policy Leadership & Reform</h3>
+                    <p>Influencing reform to ensure a streamlined, equitable, and veteran-focused compensation framework.</p>
+                    <a href="#" class="card-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon light-green">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Sector Coordination & Support</h3>
+                    <p>Strengthening capability and collaboration among organisations working in veterans' compensation.</p>
+                    <a href="#" class="card-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon navy">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Public Awareness & Accountability</h3>
+                    <p>Building understanding of veterans' compensation issues and driving system accountability.</p>
+                    <a href="#" class="card-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advocate-finder">
+        <div class="container">
+            <div class="finder-content">
+                <h2>Find an Accredited Advocate</h2>
+                <p>Access our National Register of accredited veteran compensation advocates to get the support you need.</p>
+                <a href="#" class="btn btn-primary">Search the Register</a>
+            </div>
+            <div class="finder-image">
+                <img src="advocate-image.jpg" alt="Veteran with advocate">
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h2>Latest News & Updates</h2>
+            <div class="news-grid">
+                <div class="news-item">
+                    <div class="news-image">
+                        <img src="news1.jpg" alt="Policy update">
+                    </div>
+                    <div class="news-date">June 15, 2025</div>
+                    <h3>VAPSA Submits Reform Recommendations to Parliamentary Inquiry</h3>
+                    <p>Our comprehensive submission addresses key areas for legislative simplification across MRCA, DRCA, and VEA.</p>
+                    <a href="#" class="news-link">Read More</a>
+                </div>
+                <div class="news-item">
+                    <div class="news-image">
+                        <img src="news2.jpg" alt="Training program">
+                    </div>
+                    <div class="news-date">June 10, 2025</div>
+                    <h3>New National Certification Program Launches Next Month</h3>
+                    <p>Registration now open for advocates seeking accreditation under our new national standards framework.</p>
+                    <a href="#" class="news-link">Read More</a>
+                </div>
+                <div class="news-item">
+                    <div class="news-image">
+                        <img src="news3.jpg" alt="Outreach program">
+                    </div>
+                    <div class="news-date">June 5, 2025</div>
+                    <h3>Regional Outreach Program Expands to Support Rural Veterans</h3>
+                    <p>New initiative brings advocacy services to underserved communities across regional Australia.</p>
+                    <a href="#" class="news-link">Read More</a>
+                </div>
+            </div>
+            <div class="news-all">
+                <a href="#" class="btn btn-outline">View All News</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Join Our Mission</h2>
+            <p>Whether you're a veteran seeking support, an advocate looking for accreditation, or an organization wanting to partner with us, we're here to help.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Contact Us</a>
+                <a href="#" class="btn btn-secondary">Subscribe to Updates</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="vapsa-logo-white.png" alt="VAPSA Logo" class="footer-logo">
+                    <p>Leading systemic reform, national advocacy and professional representation of veterans seeking compensation.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find an Advocate</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-resources">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Advocate Register</a></li>
+                        <li><a href="#">Training Calendar</a></li>
+                        <li><a href="#">Policy Updates</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Member Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Veteran Way, Canberra ACT 2600</li>
+                        <li><i class="fas fa-phone"></i> 1800 VAPSA (1800 82772)</li>
+                        <li><i class="fas fa-envelope"></i> info@vapsa.org.au</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Veteran Advocacy Professional Standards Association. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+```
+
+```css
+/* Base Styles */
+:root {
+    --navy-blue: #003366;
+    --sky-blue: #66CCFF;
+    --forest-green: #228B22;
+    --light-green: #A8D5BA;
+    --neutral-gray: #CCCCCC;
+    --white: #FFFFFF;
+    --black: #333333;
+    --light-gray: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--black);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--navy-blue);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--sky-blue);
+}
+
+section {
+    padding: 80px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    border: 2px solid var(--navy-blue);
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--navy-blue);
+}
+
+.btn-secondary {
+    background-color: var(--sky-blue);
+    color: var(--navy-blue);
+    border: 2px solid var(--sky-blue);
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: var(--sky-blue);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--navy-blue);
+    border: 2px solid var(--navy-blue);
+}
+
+.btn-outline:hover {
+    background-color: var(--navy-blue);
+    color: var(--white);
+}
+
+/* Header Styles */
+header {
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: var(--navy-blue);
+    font-weight: 600;
+    padding: 10px 0;
+    position: relative;
+}
+
+nav ul li a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: var(--sky-blue);
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover:after,
+nav ul li a.active:after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    padding: 180px 0 100px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Intro Section */
+.intro {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+}
+
+/* Priorities Section */
+.priorities {
+    background-color: var(--light-gray); }
+
+.priority-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; }
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); }
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--white);
+    font-size: 28px;
+}
+
+.navy {
+    background-color: var(--navy-blue);
+}
+
+.sky {
+    background-color: var(--sky-blue);
+}
+
+.forest {
+    background-color: var(--forest-green); }
+
+.light-green {
+    background-color: var(--light-green); }
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card-link {
+    font-weight: 600;
+    color: var(--navy-blue);
+    display: inline-block;
+    position: relative;
+}
+
+.card-link:after {
+    content: '→';
+    margin-left: 5px;
+    transition: margin-left 0.3s ease;
+}
+
+.card-link:hover:after {
+    margin-left: 10px;
+}
+
+/* Advocate Finder Section */
+.advocate-finder {
+    background-color: var(--white);
+}
+
+.advocate-finder .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.finder-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); }
+
+.finder-content h2 {
+    text-align: left;
+}
+
+/* News Section */
+.news {
+    background-color: var(--light-gray); }
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.news-item {
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-10px);
+}
+
+.news-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.news-item:hover .news-image img {
+    transform: scale(1.1);
+}
+
+.news-date {
+    font-size: 14px;
+    color: #666;
+    margin: 20px 20px 10px;
+}
+
+.news-item h3 {
+    margin: 0 20px 10px;
+    font-size: 18px;
+}
+
+.news-item p {
+    margin: 0 20px 20px;
+    color: #666;
+}
+
+.news-link {
+    display: block;
+    text-align: right;
+    padding: 0 20px 20px;
+    font-weight: 600;
+}
+
+.news-all {
+    text-align: center;
+}
+
+/* CTA Section */
+.cta {
+    background: linear-gradient(to right, var(--navy-blue), var(--forest-green));
+    color: var(--white);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cta h2 {
+    color: var(--white);
+}
+
+.cta p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta .btn-primary {
+    background-color: var(--white);
+    color: var(--navy-blue);
+    border-color: var(--white);
+}
+
+.cta .btn-primary:hover {
+    background-color: transparent;
+    color: var(--white);
+}
+
+.cta .btn-secondary {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.cta .btn-secondary:hover {
+    background-color: var(--white);
+    color: var(--navy-blue);
+}
+
+/* Footer */
+footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 80px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-logo {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-about p {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--white);
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--sky-blue);
+    color: var(--navy-blue);
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: var(--neutral-gray);
+}
+
+footer ul li a:hover {
+    color: var(--sky-blue);
+}
+
+.footer-contact ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--neutral-gray);
+}
+
+.footer-contact ul li i {
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom-links a {
+    color: var(--neutral-gray);
+    font-size: 14px;
+}
+
+.footer-bottom-links a:hover {
+    color: var(--sky-blue);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    nav ul li {
+        margin-left: 20px;
+    }
+    
+    .advocate-finder .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .finder-content {
+        order: 2;
+    }
+    
+    .finder-image {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    .hero {
+        padding: 150px 0 80px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-bottom-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+}
+```
