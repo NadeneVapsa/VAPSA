@@ -1,0 +1,117 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #003366;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-header {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.brand-header .logo {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.brand-header h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.brand-header .tagline {
+    font-size: 18px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    font-weight: 400;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 28px;
+    color: #228B22;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 22px;
+    color: #003366;
+}
+
+ul, p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.palette {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.swatch {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.swatch.navy { background: #003366; }
+.swatch.sky { background: #66CCFF; color: #003366;}
+.swatch.forest { background: #228B22; }
+.swatch.light-green { background: #A8D5BA; color: #003366;}
+.swatch.gray { background: #CCCCCC; color: #003366;}
+
+.logo-display {
+    width: 200px;
+    display: block;
+    margin: 1.5rem auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 14px;
+    margin-top: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .brand-header h1 { font-size: 28px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 18px; }
+    .palette { flex-direction: column; align-items: center;}
+    .swatch { width: 95vw; }
+}
